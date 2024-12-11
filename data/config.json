@@ -1,0 +1,1958 @@
+{
+  "keymaps": [
+    {
+      "id": 5,
+      "name": "Capslock",
+      "enable": false,
+      "hotkey": "*capslock",
+      "parentID": 0,
+      "delay": 0,
+      "hotkeys": {}
+    },
+    {
+      "id": 6,
+      "name": "Capslock + F",
+      "enable": false,
+      "hotkey": "*f",
+      "parentID": 5,
+      "delay": 0,
+      "hotkeys": {
+        "*a": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "Windows Terminal",
+            "winTitle": "ahk_exe WindowsTerminal.exe",
+            "target": "shortcuts\\终端预览.lnk"
+          }
+        ],
+        "*d": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "Edge",
+            "winTitle": "ahk_exe msedge.exe",
+            "target": "shortcuts\\Microsoft Edge.lnk"
+          }
+        ],
+        "*e": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "File Explorer",
+            "winTitle": "ahk_class CabinetWClass ahk_exe Explorer.EXE",
+            "target": "D:\\"
+          }
+        ],
+        "*h": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "Visual Studio",
+            "winTitle": "- Microsoft Visual Studio",
+            "target": "shortcuts\\Visual Studio 2019.lnk"
+          }
+        ],
+        "*i": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "Typora",
+            "winTitle": "ahk_exe Typora.exe",
+            "target": "shortcuts\\Typora.lnk"
+          }
+        ],
+        "*j": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "IntelliJ IDEA",
+            "winTitle": "ahk_exe idea64.exe",
+            "target": "shortcuts\\IntelliJ IDEA Ultimate.lnk"
+          }
+        ],
+        "*k": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "PotPlayer",
+            "winTitle": "ahk_class PotPlayer64",
+            "target": "shortcuts\\PotPlayer 64 bit.lnk"
+          }
+        ],
+        "*l": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "Excel",
+            "winTitle": "ahk_exe EXCEL.EXE",
+            "target": "shortcuts\\Excel.lnk"
+          }
+        ],
+        "*m": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 8,
+            "comment": "如果 TIM.exe 进程存在则输入 Ctrl+Alt+Z 热键激活 TIM，否则启动 TIM",
+            "ahkCode": "ProcessExistSendKeyOrRun(\"TIM.exe\", \"^!z\", \"shortcuts\\TIM.lnk\")"
+          }
+        ],
+        "*n": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "GoLand",
+            "winTitle": "ahk_exe goland64.exe",
+            "target": "shortcuts\\GoLand.lnk"
+          }
+        ],
+        "*o": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "OneNote 桌面版",
+            "winTitle": "ahk_exe ONENOTE.EXE",
+            "target": "shortcuts\\OneNote.lnk"
+          }
+        ],
+        "*p": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "PowerPoint",
+            "winTitle": "ahk_exe POWERPNT.EXE",
+            "target": "shortcuts\\PowerPoint.lnk"
+          }
+        ],
+        "*q": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "Everything",
+            "winTitle": "ahk_class EVERYTHING",
+            "target": "shortcuts\\Everything.lnk"
+          }
+        ],
+        "*r": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "FoxitReader",
+            "winTitle": "ahk_exe FoxitReader.exe",
+            "target": "D:\\install\\Foxit Reader\\FoxitReader.exe"
+          }
+        ],
+        "*s": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "Visual Studio Code",
+            "winTitle": "ahk_exe Code.exe",
+            "target": "shortcuts\\Visual Studio Code.lnk"
+          }
+        ],
+        "*w": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "Chrome",
+            "winTitle": "ahk_exe chrome.exe",
+            "target": "shortcuts\\Google Chrome.lnk"
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入 f 键",
+            "keysToSend": "{blind}{f}"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Capslock + Space",
+      "enable": false,
+      "hotkey": "*space",
+      "parentID": 5,
+      "delay": 0,
+      "hotkeys": {
+        "*d": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "DataGrip",
+            "winTitle": "ahk_exe datagrip64.exe",
+            "target": "shortcuts\\DataGrip.lnk"
+          }
+        ],
+        "*w": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 8,
+            "comment": "如果 WeChat.exe 进程存在则输入 Ctrl+Alt+W 热键激活微信，否则启动微信",
+            "ahkCode": "ProcessExistSendKeyOrRun(\"WeChat.exe\", \"^!w\", \"shortcuts\\微信.lnk\")"
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入 space 键",
+            "keysToSend": "{blind}{space}"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "' 模式",
+      "enable": false,
+      "hotkey": "*'",
+      "parentID": 0,
+      "delay": 0,
+      "hotkeys": {
+        "*2": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "上翻页",
+            "keysToSend": "{PGUP}"
+          }
+        ],
+        "*3": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "下翻页",
+            "keysToSend": "{PGDN}"
+          }
+        ],
+        "*a": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 跳到行首",
+            "actionValueID": 5
+          }
+        ],
+        "*b": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "删一个单词",
+            "actionValueID": 18
+          }
+        ],
+        "*backspace": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "回车",
+            "keysToSend": "{enter}"
+          }
+        ],
+        "*c": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Backspace",
+            "actionValueID": 21
+          }
+        ],
+        "*d": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 下移",
+            "actionValueID": 2
+          }
+        ],
+        "*e": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 上移",
+            "actionValueID": 1
+          }
+        ],
+        "*f": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 右移",
+            "actionValueID": 4
+          }
+        ],
+        "*g": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 跳到行尾",
+            "actionValueID": 6
+          }
+        ],
+        "*j": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "label:57",
+            "actionValueID": 19
+          }
+        ],
+        "*q": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:31",
+            "actionValueID": 7
+          }
+        ],
+        "*r": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:30",
+            "actionValueID": 6
+          }
+        ],
+        "*s": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 左移",
+            "actionValueID": 3
+          }
+        ],
+        "*space": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Enter",
+            "actionValueID": 22
+          }
+        ],
+        "*t": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:32",
+            "actionValueID": 8
+          }
+        ],
+        "*v": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 下一单词",
+            "actionValueID": 8
+          }
+        ],
+        "*w": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:29",
+            "actionValueID": 5
+          }
+        ],
+        "*x": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Esc",
+            "actionValueID": 20
+          }
+        ],
+        "*z": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 上一单词",
+            "actionValueID": 7
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入 ' 键",
+            "keysToSend": "{blind}{'}"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "分号子数字",
+      "enable": true,
+      "hotkey": "f",
+      "parentID": 13,
+      "delay": 0,
+      "hotkeys": {
+        "*,": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 2",
+            "remapToKey": "2"
+          }
+        ],
+        "*.": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 3",
+            "remapToKey": "3"
+          }
+        ],
+        "*/": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 9,
+            "comment": "锁定当前模式 (免去按住触发键)",
+            "actionValueID": 8
+          }
+        ],
+        "*i": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 8",
+            "remapToKey": "8"
+          }
+        ],
+        "*j": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 4",
+            "remapToKey": "4"
+          }
+        ],
+        "*k": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 5",
+            "remapToKey": "5"
+          }
+        ],
+        "*l": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 6",
+            "remapToKey": "6"
+          }
+        ],
+        "*m": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 1",
+            "remapToKey": "1"
+          }
+        ],
+        "*o": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 9",
+            "remapToKey": "9"
+          }
+        ],
+        "*space": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 0",
+            "remapToKey": "0"
+          }
+        ],
+        "*u": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 7",
+            "remapToKey": "7"
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 >",
+            "keysToSend": "{text}>"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Tab 模式",
+      "enable": false,
+      "hotkey": "*tab",
+      "parentID": 0,
+      "delay": 0,
+      "hotkeys": {
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入 tab 键",
+            "keysToSend": "{blind}{tab}"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "空格模式",
+      "enable": false,
+      "hotkey": "*space",
+      "parentID": 0,
+      "delay": 0,
+      "hotkeys": {
+        "*,": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Delete",
+            "actionValueID": 23
+          }
+        ],
+        "*.": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Insert",
+            "actionValueID": 24
+          }
+        ],
+        "*2": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Ctrl+Shift+Tab",
+            "actionValueID": 28
+          }
+        ],
+        "*3": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Ctrl + Tab",
+            "actionValueID": 26
+          }
+        ],
+        "*a": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 跳到行首",
+            "actionValueID": 5
+          }
+        ],
+        "*b": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "删除一个单词",
+            "actionValueID": 18
+          }
+        ],
+        "*c": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Backspace",
+            "actionValueID": 21
+          }
+        ],
+        "*d": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 下移",
+            "actionValueID": 2
+          }
+        ],
+        "*e": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 上移",
+            "actionValueID": 1
+          }
+        ],
+        "*f": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 右移",
+            "actionValueID": 4
+          }
+        ],
+        "*g": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 跳到行尾",
+            "actionValueID": 6
+          }
+        ],
+        "*k": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Shift 键",
+            "actionValueID": 19
+          }
+        ],
+        "*q": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "右键菜单",
+            "actionValueID": 17
+          }
+        ],
+        "*r": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Tab",
+            "actionValueID": 25
+          }
+        ],
+        "*s": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 左移",
+            "actionValueID": 3
+          }
+        ],
+        "*v": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 下一单词",
+            "actionValueID": 8
+          }
+        ],
+        "*w": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Shift + Tab",
+            "actionValueID": 27
+          }
+        ],
+        "*x": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Esc",
+            "actionValueID": 20
+          }
+        ],
+        "*z": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 上一单词",
+            "actionValueID": 7
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入 space 键",
+            "keysToSend": "{blind}{space}"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "分号模式",
+      "enable": true,
+      "hotkey": ";",
+      "parentID": 0,
+      "delay": 0,
+      "hotkeys": {
+        "*a": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 *",
+            "keysToSend": "{text}*"
+          }
+        ],
+        "*b": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 %",
+            "keysToSend": "{text}%"
+          }
+        ],
+        "*c": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 .",
+            "keysToSend": "{text}."
+          }
+        ],
+        "*d": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 =",
+            "keysToSend": "{text}="
+          }
+        ],
+        "*e": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 ^",
+            "keysToSend": "{text}^"
+          }
+        ],
+        "*f": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 >",
+            "keysToSend": "{text}>"
+          }
+        ],
+        "*g": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 !",
+            "keysToSend": "{text}!"
+          }
+        ],
+        "*h": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 +",
+            "keysToSend": "{text}+"
+          }
+        ],
+        "*i": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 :",
+            "keysToSend": "{text}:"
+          }
+        ],
+        "*k": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 `",
+            "keysToSend": "{text}`"
+          }
+        ],
+        "*m": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 -",
+            "keysToSend": "{text}-"
+          }
+        ],
+        "*n": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 /",
+            "keysToSend": "{text}/"
+          }
+        ],
+        "*r": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 &",
+            "keysToSend": "{text}&"
+          }
+        ],
+        "*s": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 <",
+            "keysToSend": "{text}<"
+          }
+        ],
+        "*t": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 ~",
+            "keysToSend": "{text}~"
+          }
+        ],
+        "*u": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 $",
+            "keysToSend": "{text}$"
+          }
+        ],
+        "*v": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 |",
+            "keysToSend": "{text}|"
+          }
+        ],
+        "*w": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 #",
+            "keysToSend": "{text}#"
+          }
+        ],
+        "*x": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 _",
+            "keysToSend": "{text}_"
+          }
+        ],
+        "*y": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 @",
+            "keysToSend": "{text}@"
+          }
+        ],
+        "*z": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 \\",
+            "keysToSend": "{text}\\"
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 9,
+            "comment": "触发 缩写功能",
+            "actionValueID": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "name": "句号模式",
+      "enable": false,
+      "hotkey": "*.",
+      "parentID": 0,
+      "delay": 0,
+      "hotkeys": {
+        "*,": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Shift",
+            "actionValueID": 19
+          }
+        ],
+        "*2": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Ctrl+Shift+Tab",
+            "actionValueID": 28
+          }
+        ],
+        "*3": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Ctrl + Tab",
+            "actionValueID": 26
+          }
+        ],
+        "*a": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 跳到行首",
+            "actionValueID": 5
+          }
+        ],
+        "*b": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "删一个单词",
+            "actionValueID": 18
+          }
+        ],
+        "*c": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Backspace",
+            "actionValueID": 21
+          }
+        ],
+        "*d": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 下移",
+            "actionValueID": 2
+          }
+        ],
+        "*e": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 上移",
+            "actionValueID": 1
+          }
+        ],
+        "*f": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 右移",
+            "actionValueID": 4
+          }
+        ],
+        "*g": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 跳到行尾",
+            "actionValueID": 6
+          }
+        ],
+        "*q": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "右键菜单",
+            "actionValueID": 17
+          }
+        ],
+        "*r": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Tab",
+            "actionValueID": 25
+          }
+        ],
+        "*s": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 左移",
+            "actionValueID": 3
+          }
+        ],
+        "*space": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Enter",
+            "actionValueID": 22
+          }
+        ],
+        "*v": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 下一单词",
+            "actionValueID": 8
+          }
+        ],
+        "*w": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Shift + Tab",
+            "actionValueID": 27
+          }
+        ],
+        "*x": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Esc",
+            "actionValueID": 20
+          }
+        ],
+        "*z": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 上一单词",
+            "actionValueID": 7
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入 . 键",
+            "keysToSend": "{blind}{.}"
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "鼠标右键",
+      "enable": false,
+      "hotkey": "rbutton",
+      "parentID": 0,
+      "delay": 0,
+      "hotkeys": {
+        "*LButton": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "打开 Alt+Tab 窗口切换器 ( 可用鼠标中键关闭窗口 )",
+            "keysToSend": "^!{tab}"
+          }
+        ],
+        "*WheelDown": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Ctrl + Tab",
+            "actionValueID": 26
+          }
+        ],
+        "*WheelUp": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Ctrl+Shift+Tab",
+            "actionValueID": 28
+          }
+        ],
+        "*c": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Backspace",
+            "actionValueID": 21
+          }
+        ],
+        "*d": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Delete",
+            "actionValueID": 23
+          }
+        ],
+        "*space": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Enter",
+            "actionValueID": 22
+          }
+        ],
+        "*x": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Esc",
+            "actionValueID": 20
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "鼠标右键",
+            "actionValueID": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "name": "鼠标侧键1",
+      "enable": false,
+      "hotkey": "xbutton1",
+      "parentID": 0,
+      "delay": 0,
+      "hotkeys": {
+        "*c": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "Ctrl + C 复制",
+            "keysToSend": "^c"
+          }
+        ],
+        "*q": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "窗口最大化或还原",
+            "actionValueID": 9
+          }
+        ],
+        "*space": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 enter",
+            "remapToKey": "enter"
+          }
+        ],
+        "*v": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "Ctrl + V 粘贴",
+            "keysToSend": "^v"
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入 xbutton1 键",
+            "keysToSend": "{blind}{xbutton1}"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "分号子Ctrl",
+      "enable": true,
+      "hotkey": "l",
+      "parentID": 13,
+      "delay": 0,
+      "hotkeys": {
+        "*a": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "ctrl + a",
+            "keysToSend": "{blind}^a"
+          }
+        ],
+        "*b": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "ctrl + ",
+            "keysToSend": "{blind}^b"
+          }
+        ],
+        "*c": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "ctrl + c",
+            "keysToSend": "{blind}^c"
+          }
+        ],
+        "*d": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "ctrl + d",
+            "keysToSend": "{blind}^d"
+          }
+        ],
+        "*f": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "ctrl + f",
+            "keysToSend": "{blind}^f"
+          }
+        ],
+        "*s": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "ctrl + s",
+            "keysToSend": "{blind}^s"
+          }
+        ],
+        "*v": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "ctrl + v",
+            "keysToSend": "{blind}^v"
+          }
+        ],
+        "*x": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "ctrl + x",
+            "keysToSend": "{blind}^x"
+          }
+        ],
+        "*y": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "ctrl + y",
+            "keysToSend": "{blind}^y"
+          }
+        ],
+        "*z": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "ctrl + z",
+            "keysToSend": "{blind}^z"
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 \"",
+            "keysToSend": "{text}\""
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "分号子光标移动",
+      "enable": true,
+      "hotkey": "j",
+      "parentID": 13,
+      "delay": 0,
+      "hotkeys": {
+        "*2": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "上翻页",
+            "keysToSend": "{PGUP}"
+          }
+        ],
+        "*3": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "下翻页",
+            "keysToSend": "{PGDN}"
+          }
+        ],
+        "*a": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 跳到行首",
+            "actionValueID": 5
+          }
+        ],
+        "*b": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "删一个单词",
+            "actionValueID": 18
+          }
+        ],
+        "*backspace": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "回车",
+            "keysToSend": "{enter}"
+          }
+        ],
+        "*c": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Backspace",
+            "actionValueID": 21
+          }
+        ],
+        "*d": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 下移",
+            "actionValueID": 2
+          }
+        ],
+        "*e": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 上移",
+            "actionValueID": 1
+          }
+        ],
+        "*f": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 右移",
+            "actionValueID": 4
+          }
+        ],
+        "*g": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 跳到行尾",
+            "actionValueID": 6
+          }
+        ],
+        "*k": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "label:57",
+            "actionValueID": 19
+          }
+        ],
+        "*q": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:31",
+            "actionValueID": 7
+          }
+        ],
+        "*r": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:30",
+            "actionValueID": 6
+          }
+        ],
+        "*s": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 左移",
+            "actionValueID": 3
+          }
+        ],
+        "*space": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Enter",
+            "actionValueID": 22
+          }
+        ],
+        "*t": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:32",
+            "actionValueID": 8
+          }
+        ],
+        "*v": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 下一单词",
+            "actionValueID": 8
+          }
+        ],
+        "*w": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:29",
+            "actionValueID": 5
+          }
+        ],
+        "*x": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "Esc",
+            "actionValueID": 20
+          }
+        ],
+        "*z": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "光标 - 上一单词",
+            "actionValueID": 7
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "符号 ;",
+            "keysToSend": "{text};"
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "name": "分号Alt",
+      "enable": true,
+      "hotkey": "k",
+      "parentID": 13,
+      "delay": 0,
+      "hotkeys": {
+        "*a": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + a",
+            "keysToSend": "{blind}!a"
+          }
+        ],
+        "*b": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + b",
+            "keysToSend": "{blind}!b"
+          }
+        ],
+        "*c": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + c",
+            "keysToSend": "{blind}!c"
+          }
+        ],
+        "*d": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + d",
+            "keysToSend": "{blind}!d"
+          }
+        ],
+        "*f": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + f",
+            "keysToSend": "{blind}!f"
+          }
+        ],
+        "*g": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + g",
+            "keysToSend": "{blind}!g"
+          }
+        ],
+        "*j": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "label:57",
+            "actionValueID": 19
+          }
+        ],
+        "*r": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + r",
+            "keysToSend": "{blind}!r"
+          }
+        ],
+        "*s": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + s",
+            "keysToSend": "{blind}!s"
+          }
+        ],
+        "*space": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + tab",
+            "keysToSend": "{blind}^{tab}"
+          }
+        ],
+        "*t": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + t",
+            "keysToSend": "{blind}!t"
+          }
+        ],
+        "*w": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + w",
+            "keysToSend": "{blind}!w"
+          }
+        ],
+        "*x": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + x",
+            "keysToSend": "{blind}!x"
+          }
+        ],
+        "*z": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "alt + z",
+            "keysToSend": "{blind}!z"
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入 k 键",
+            "keysToSend": "{blind}{k}"
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "name": "分号子鼠标移动",
+      "enable": true,
+      "hotkey": "h",
+      "parentID": 13,
+      "delay": 0,
+      "hotkeys": {
+        "*a": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:31",
+            "actionValueID": 7
+          }
+        ],
+        "*b": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:36",
+            "actionValueID": 12
+          }
+        ],
+        "*c": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:35",
+            "actionValueID": 11
+          }
+        ],
+        "*d": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:26",
+            "actionValueID": 2
+          }
+        ],
+        "*e": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:25",
+            "actionValueID": 1
+          }
+        ],
+        "*f": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:28",
+            "actionValueID": 4
+          }
+        ],
+        "*g": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:32",
+            "actionValueID": 8
+          }
+        ],
+        "*r": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:30",
+            "actionValueID": 6
+          }
+        ],
+        "*s": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:27",
+            "actionValueID": 3
+          }
+        ],
+        "*v": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:34",
+            "actionValueID": 10
+          }
+        ],
+        "*w": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:29",
+            "actionValueID": 5
+          }
+        ],
+        "*x": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:33",
+            "actionValueID": 9
+          }
+        ],
+        "*z": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 4,
+            "comment": "label:37",
+            "actionValueID": 13
+          }
+        ],
+        "singlePress": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入 h 键",
+            "keysToSend": "{blind}{h}"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "name": "自定义热键",
+      "enable": true,
+      "hotkey": "customHotkeys",
+      "parentID": 0,
+      "delay": 0,
+      "hotkeys": {
+        "!'": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 9,
+            "comment": "重启 MyKeymap",
+            "actionValueID": 2
+          }
+        ],
+        "!+'": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 9,
+            "comment": "暂停 MyKeymap",
+            "actionValueID": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Capslock 命令",
+      "enable": false,
+      "hotkey": "capslockAbbr",
+      "parentID": 0,
+      "delay": 0,
+      "hotkeys": {}
+    },
+    {
+      "id": 3,
+      "name": "缩写功能",
+      "enable": true,
+      "hotkey": "semicolonAbbr",
+      "parentID": 0,
+      "delay": 0,
+      "hotkeys": {
+        "dk": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入一对 {} 并把光标移动中间",
+            "keysToSend": "{text}{}\n{left}"
+          }
+        ],
+        "exit": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 9,
+            "comment": "退出 MyKeymap",
+            "actionValueID": 3
+          }
+        ],
+        "fy": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 8,
+            "comment": "打开翻译页面",
+            "ahkCode": "openUrl(\"https://fanyi.baidu.com/mtpe-individual/multimodal\")"
+          }
+        ],
+        "gg": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "一键 Git 提交",
+            "keysToSend": "{text}git add -A; git commit -a -m \"\"; git push origin (git branch --show-current);\n{left 47}"
+          }
+        ],
+        "jt": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入箭头符号",
+            "keysToSend": "{text}->"
+          }
+        ],
+        "kmset": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 9,
+            "comment": "label:74",
+            "actionValueID": 4
+          }
+        ],
+        "kmwd": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "打开「 MyKeymap 」文件夹",
+            "target": "ahk-expression: A_WorkingDir"
+          }
+        ],
+        "pwsh": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 1,
+            "comment": "启动pwsh",
+            "target": "pwsh.exe"
+          }
+        ],
+        "sj": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入当前时间",
+            "keysToSend": "ahk-expression: Format(\"{}年{}月{}日 {}:{}\", A_YYYY, A_MM, A_DD, A_Hour, A_Min)"
+          }
+        ],
+        "sk": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入一对「」并把光标移动中间",
+            "keysToSend": "「  」\n{left 2}"
+          }
+        ],
+        "top": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "label:14",
+            "actionValueID": 12
+          }
+        ],
+        "wcq": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 2,
+            "comment": "重启",
+            "actionValueID": 4
+          }
+        ],
+        "wgj": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 2,
+            "comment": "关机",
+            "actionValueID": 3
+          }
+        ],
+        "wkp": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 3,
+            "comment": "关闭窗口 (杀进程)",
+            "actionValueID": 15
+          }
+        ],
+        "wrex": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 2,
+            "comment": "重启文件资源管理器",
+            "actionValueID": 7
+          }
+        ],
+        "wsm": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 2,
+            "comment": "睡眠",
+            "actionValueID": 2
+          }
+        ],
+        "wsp": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 2,
+            "comment": "label:17",
+            "actionValueID": 1
+          }
+        ],
+        "xk": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入一对 () 并把光标移到中间",
+            "keysToSend": "{text}()\n{left}"
+          }
+        ],
+        "zk": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "输入一对 [] 并把光标移到中间",
+            "keysToSend": "{text}[]\n{left}"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "设置",
+      "enable": true,
+      "hotkey": "settings",
+      "parentID": 0,
+      "delay": 0,
+      "hotkeys": {}
+    }
+  ],
+  "options": {
+    "mykeymapVersion": "2.0-beta32",
+    "windowGroups": [
+      {
+        "id": -1,
+        "name": "🚫 Exclude"
+      },
+      {
+        "id": 0,
+        "name": "🌎 全局生效"
+      },
+      {
+        "id": 1,
+        "name": "🌐 浏览器",
+        "value": "ahk_exe chrome.exe\nahk_exe msedge.exe\nahk_exe firefox.exe",
+        "conditionType": 1
+      },
+      {
+        "id": 3,
+        "name": "📁 文件资源管理器",
+        "value": "ahk_exe explorer.exe",
+        "conditionType": 1
+      }
+    ],
+    "mouse": {
+      "keepMouseMode": false,
+      "showTip": true,
+      "tipSymbol": "🐶",
+      "delay1": "0.13",
+      "delay2": "0.01",
+      "fastSingle": "15",
+      "fastRepeat": "15",
+      "slowSingle": "2",
+      "slowRepeat": "2"
+    },
+    "scroll": {
+      "delay1": "0.2",
+      "delay2": "0.03",
+      "onceLineCount": "1"
+    },
+    "commandInputSkin": {
+      "backgroundColor": "#FFFFFF",
+      "backgroundOpacity": "0.9",
+      "borderWidth": "3",
+      "borderColor": "#FFFFFF",
+      "borderOpacity": "1.0",
+      "borderRadius": "10",
+      "cornerColor": "#000000",
+      "cornerOpacity": "0.0",
+      "gridlineColor": "#2843AD",
+      "gridlineOpacity": "0.04",
+      "keyColor": "#000000",
+      "keyOpacity": "1.0",
+      "hideAnimationDuration": "0.34",
+      "windowYPos": "0.25",
+      "windowWidth": "700",
+      "windowShadowColor": "#000000",
+      "windowShadowOpacity": "0.5",
+      "windowShadowSize": "3.0"
+    },
+    "pathVariables": [
+      {
+        "name": "programs",
+        "value": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\"
+      }
+    ],
+    "startup": false,
+    "language": "zh",
+    "keyMapping": "",
+    "keyboardLayout": "1 2 3 4 5 6 7 8 9 0\nq w e r t y u i o p\na s d f g h j k l ;\nz x c v b n m , . /\nspace enter backspace - [ ' singlePress"
+  }
+}
